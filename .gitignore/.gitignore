@@ -1,0 +1,22 @@
+// usually cycle looks like this:
+
+for (int i = 0; i < 10; i++)
+{
+/*operation*/;
+}
+
+//In case the variable "i" has already been declared it looks like:
+for(; i < 10; i++)
+
+//If the variable end and the variable have already been declared:
+for(; ; i++)
+
+//cycle will run forever in that case if i < 10:
+for (int i = 0; i < 10;)
+
+//cycle will run forever in that case if i < 10 and if the variable "i" have already been declared:
+for(; i < 10;)
+
+//your cycle will run forever:
+for(int = 0; ;)
+for(; ;)
